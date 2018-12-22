@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1096590559093",
+    "firebase_url": "https://ezhealth-d6a2b.firebaseio.com",
+    "project_id": "ezhealth-d6a2b",
+    "storage_bucket": "ezhealth-d6a2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096590559093:android:a6b6de9330e1b42c",
+        "android_client_info": {
+          "package_name": "com.arlis.ezhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096590559093-0gr40qop9e9iegmfsckkvnu7t7471a81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arlis.ezhealth",
+            "certificate_hash": "72b858e22ef6581f454c7ed54c0e801cc6b6ecfd"
+          }
+        },
+        {
+          "client_id": "1096590559093-4prmmfqa0ebr4kr78io1a77mqie9brg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAxTa0LGYH3sECSsPfvdT20dI9p-athls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096590559093-4prmmfqa0ebr4kr78io1a77mqie9brg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

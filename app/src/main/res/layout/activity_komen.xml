@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/adadad"
+    tools:context=".Komen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:textColor="#fffafa"
+            android:hint="Nama"
+            android:textColorHint="#f2eeee"
+            android:inputType="text"
+            android:selectAllOnFocus="true" />
+
+        <EditText
+            android:id="@+id/txtKomen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#ffffff"
+            android:hint="Komentar"
+            android:inputType="text"
+            android:textColorHint="#fcfcfc" />
+        <EditText
+            android:id="@+id/txtnohp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#ffffff"
+            android:hint="No HP"
+            android:inputType="phone"
+            android:textColorHint="#ffffff" />
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:layout_marginTop="50dp"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

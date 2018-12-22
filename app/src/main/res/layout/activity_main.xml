@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="154dp"
+        android:layout_height="144dp"
+        app:srcCompat="@drawable/adada"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="33dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="302dp"
+        android:layout_height="26dp"
+        android:fontFamily="sans-serif"
+        android:text="Selamat Datang di Aplikasi EzHealth"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="421dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="302dp"
+        android:layout_height="85dp"
+        android:text="EzHealth adalah aplikasi untuk anda yang ingin membentuk tubuh menjadi lebih ideal dan indah. Pada aplikasi ini kamu dapat membentuk tubuhmu sendiri kapanpun dan dimanapun.          LETS TRY!!"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="253dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
